@@ -1,0 +1,26 @@
+
+nav {
+    background: linear-gradient(92.26deg, rgba(36, 38, 41, 0.12) 0%, rgba(36, 38, 41, 0.6) 99.74%);
+    backdrop-filter: blur(80px);
+    width: auto;
+    height: 10vh;
+}
+
+ul {
+    display: none;
+}
+
+.menu {
+    float: right;
+    padding: 26px 10px 0px 0px;
+    cursor: pointer;
+}
+
+.logo {
+    float: left;
+    padding: 18px 0px 0px 10px;
+}
+
+#check {
+    display: none;
+}

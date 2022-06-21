@@ -1,0 +1,81 @@
+.services {
+    height: 100vh;
+    }
+
+.container__services {
+   display: grid; 
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr;
+   height: 100%;
+}
+
+.container__title {
+    color: $h1;
+    font-size: 1.5rem;
+    grid-column: 1;
+    grid-row: 1;
+    margin-left: 10px;
+    font-weight: 700;
+    line-height: 37px;
+}
+
+.container__subtitle {
+    color: $secundary;
+    font-size: 1.2rem;
+    grid-column: 1;
+    grid-row: 1;
+    margin: 40px 0px 0px 10px;
+}
+
+.ui {
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 25%;
+
+}
+.container__title2 {
+    color: $h1;
+    font-size: 1.5rem;
+    grid-column: 2;
+    grid-row: 2;
+    margin-left: 10px;
+    font-weight: 700;
+    line-height: 37px;
+}
+
+.container__subtitle2 {
+    color: $secundary;
+    font-size: 1.2rem;
+    grid-column: 2;
+    grid-row: 2;
+    margin: 80px 0px 0px 10px;
+}
+
+.landing {
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: 25%;
+}
+.container__title3 {
+    color: $h1;
+    font-size: 1.5rem;
+    grid-column: 1;
+    grid-row: 3;
+    margin-left: 10px;
+    font-weight: 700;
+    line-height: 37px;
+}
+
+.container__subtitle3 {
+    color: $secundary;
+    font-size: 1.2rem;
+    grid-column: 1;
+    grid-row: 3;
+    margin: 80px 0px 0px 10px;
+}
+
+.marketing {
+    grid-column: 2;
+    grid-row: 3;
+    margin-left: 25%;
+}

@@ -1,0 +1,22 @@
+@import "parciales/_nav.scss";
+@import "parciales/_variables.scss";
+@import "parciales/_inicio.scss";
+@import "parciales/_plans.scss";
+@import "parciales/_services.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    border-color: transparent;
+
+}
+
+body {
+    max-width: 360px;
+    background-color: #16161A;
+
+}
