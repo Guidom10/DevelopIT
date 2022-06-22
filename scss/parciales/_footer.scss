@@ -1,0 +1,24 @@
+footer {
+    width: 100%;
+}
+
+.contact__us {
+    color: $h1;
+    line-height: 18px;
+    text-decoration-line: underline;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-left: 10px;}
+
+.container__reds {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px 0px 10px;
+    gap: 25px;
+}
+
+.whatsapp {
+    position: relative;
+    top: -60px;
+    left: 83%;
+}
