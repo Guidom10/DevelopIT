@@ -3,6 +3,9 @@
 @import "parciales/_inicio.scss";
 @import "parciales/_plans.scss";
 @import "parciales/_services.scss";
+@import "parciales/_proyects.scss";
+@import "parciales/_personalized.scss";
+@import "parciales/_footer.scss";
 
 * {
     margin: 0;
@@ -16,7 +19,6 @@
 }
 
 body {
-    max-width: 360px;
     background-color: #16161A;
 
 }

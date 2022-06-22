@@ -1,0 +1,89 @@
+.title__secundary{ 
+    color: $h1;
+    font-size: 1.6rem;
+    text-align: center;}
+
+.complete {
+    font-size: 1rem;
+    line-height: 46px;
+    color: $secundary;
+    margin-left: 10px;
+}
+
+form {  
+   display: grid; 
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr; 
+   height: 100%;
+   justify-items: center;
+   gap: 5px;
+}
+
+.name {
+    grid-column: 1;
+    width: 100%;
+}
+
+.name__1 {
+    height: 5vh;
+    color: $secundary;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 37px;
+    background: #242629;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    width: 100%;
+    
+}
+
+.email {grid-column: 2;
+  grid-row: 1;
+  width: 100%;
+}
+
+.email__1 {background: #242629;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    height: 5vh;
+    color: $secundary;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 37px;
+    width: 100%;
+}
+
+.text {
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 100%;
+    
+    
+}
+
+.text__1 {
+    width: 100%;
+    color: $secundary;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 37px;
+    background: #242629;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.send {
+    grid-column: 2;
+    grid-row: 3;
+    width: 100%;
+    }
+
+.send__1 {
+    background-color: #2CB67D;;
+    border-radius: 12px;
+    color: $h1;
+    font-size: 1rem;
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+}

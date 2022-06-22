@@ -51,7 +51,7 @@
             <h2 class="class__title">Plans</h2>
             <div class="container__cards">
                 <div class="cards">
-                
+
                     <h3 class="cards__title">Basic</h3>
                     <h4 class="cards__subtitle">50 USD$</h4>
                     <span class="cards__secondary">Layout</span>
@@ -76,7 +76,7 @@
                     <h4 class="cards__subtitle">120 USD$</h4>
                     <span class="cards__secondary">Layout</span>
                     <hr class="cards__line">
-                   
+
                     <div class="container__text">
                         <span class="cards__description"><img class="icons" src="icons/check.svg" alt=""> HTML CSS
                             layout.</span>
@@ -109,8 +109,8 @@
                 </div>
             </div>
             <div class="alert">
-            <img src="icons/alert.svg" class="alert__icon">
-            <span class="alert__all">All plans include a 5-page website.</span>
+                <img src="icons/alert.svg" class="alert__icon">
+                <span class="alert__all">All plans include a 5-page website.</span>
             </div>
         </section>
         <hr class="one">
@@ -129,44 +129,43 @@
             </div>
         </section>
         <hr class="one">
-        <aside>
+        <aside class="proyects">
             <h2 class="class__title">Proyects</h2>
-            <img src="images/women.png" alt="women">
-            <div class="container__proyects">
-                <img src="images/mobile.png">
-                <div class="container__flex">
-                    <h3 class="container__title">Landing page responsive</h3>
-                    <span class="container__text">
-                        HTML and CSS layout.
-                    </span>
-                    <span class="container__text">
-                        Adaptada a dispositivos moviles.
-                    </span>
-                    <span class="container__text">
-                        Posicionamiento SEO
-                    </span>
-                </div>
-                <div class="container__icons">
-                    <img src="images/circle__disabled.png">
-                    <img src="images/circle__enabled.png">
-                    <img src="images/circle__disabled.png">
-                    <img src="images/circle__disabled.png">
-                </div>
-                <button><img src="images/left_row.png"></button>
-                <button><img src="images/right_row.png"></button>
-            </div>
+            <div class="women"></div>
+                <div class="container__proyects">
+                    <img src="images/mobile.png">
+                    <div class="container__flex">
+                        <h3 class="container__title">Landing page responsive</h3>
+                        <span class="container__text">
+                            HTML and CSS layout.
+                        </span>
+                        <span class="container__text">
+                            Adaptada a dispositivos moviles.
+                        </span>
+                        <span class="container__text">
+                            Posicionamiento SEO
+                        </span>
+                    </div>
+                    <div class="container__icons">
+                        <img src="images/circle__disabled.png">
+                        <img src="images/circle__enabled.png">
+                        <img src="images/circle__disabled.png">
+                        <img src="images/circle__disabled.png">
+                    </div>
+                    <button><img src="images/left_row.png"></button>
+                    <button><img src="images/right_row.png"></button>
+                </div>   
         </aside>
-        <section>
+        <section class="personalized">
             <h3 class="title__secundary">
                 Do you want something more personalized?
             </h3>
-            <span>Complete the following information:</span>
+            <span class="complete">Complete the following information:</span>
             <form action="">
-                <label><input type="text" id="name" name="name" placeholder="Name and Surname"></label>
-                <label><input type="email" id="email" name="email" placeholder="Email"></label>
-                <label><input type="text" id="comment" name="comment" placeholder="Tell us what you need"></label>
-                <label><input type="button" id="send" name="send" placeholder="Send"></label>
-
+                <label class="name"><input type="text" id="name" name="name" placeholder="Name and Surname" required class="name__1"></label>
+                <label><input type="email" id="email" name="email" placeholder="Email" class="email__1"></label>
+                <label class="text"><input type="text" id="comment" name="comment" placeholder="Tell us what you need" required class="text__1" ></label>
+                <label class="send"><input type="submit" id="send" name="send" value="Send" class="send__1"></label>
             </form>
         </section>
     </main>
